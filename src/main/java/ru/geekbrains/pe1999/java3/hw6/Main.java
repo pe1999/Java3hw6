@@ -28,7 +28,7 @@ public class Main {
         for (int anArr : arr) {
             isHave1 |= anArr == 1;
             isHave4 |= anArr == 4;
-            isHaveAnotherDigit |= (anArr != 1 & anArr != 4);
+            isHaveAnotherDigit |= anArr != 1 & anArr != 4;
         }
 
         return isHave1 & isHave4 & !isHaveAnotherDigit;
