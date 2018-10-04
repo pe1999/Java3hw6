@@ -2,7 +2,7 @@ import org.junit.Assert;
 import org.junit.Test;
 import ru.geekbrains.pe1999.java3.hw6.Main;
 
-public class arrayCutAfter4Tests {
+public class ArrayCutAfter4Tests {
     @Test
     public void test1() {
         Assert.assertArrayEquals(new int[] {1, 2}, Main.arrayCutAfter4(new int[] {14, 1, 4, 1, 2}));

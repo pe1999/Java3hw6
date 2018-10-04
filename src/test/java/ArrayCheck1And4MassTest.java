@@ -8,7 +8,7 @@ import java.util.Arrays;
 import java.util.Collection;
 
 @RunWith(Parameterized.class)
-public class arrayCheck1And4MassTest {
+public class ArrayCheck1And4MassTest {
     @Parameterized.Parameters
     public static Collection<Object[]> testData() {
         return Arrays.asList(new Object[][] {
@@ -26,7 +26,7 @@ public class arrayCheck1And4MassTest {
     private boolean result;
     private int[] inputArray;
 
-    public arrayCheck1And4MassTest(boolean result, int[] inputArray) {
+    public ArrayCheck1And4MassTest(boolean result, int[] inputArray) {
         this.result = result;
         this.inputArray = inputArray;
     }

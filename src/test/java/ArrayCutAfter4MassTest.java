@@ -8,7 +8,7 @@ import java.util.Arrays;
 import java.util.Collection;
 
 @RunWith(Parameterized.class)
-public class arrayCutAfter4MassTest {
+public class ArrayCutAfter4MassTest {
     @Parameterized.Parameters
     public static Collection<Object[]> testData() {
         return Arrays.asList(new Object[][] {
@@ -23,7 +23,7 @@ public class arrayCutAfter4MassTest {
     private int[] inputArray;
     private int[] outputArray;
 
-    public arrayCutAfter4MassTest(int[] inputArray, int[] outputArray) {
+    public ArrayCutAfter4MassTest(int[] inputArray, int[] outputArray) {
         this.inputArray = inputArray;
         this.outputArray = outputArray;
     }
